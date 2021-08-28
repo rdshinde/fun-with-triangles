@@ -17,6 +17,7 @@ function isTriangle() {
   if (a1 > 0 && a2 > 0 && a3 > 0) {
     if (a1 + a2 + a3 === 180.0) {
       message("Yass! These angles can form the triangle.✌️");
+      resultDiv.style.color = "white";
     }
     else{
         message("No! These angles cannot form the triangle.😞")

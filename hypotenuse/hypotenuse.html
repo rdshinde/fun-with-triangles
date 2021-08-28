@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Major+Mono+Display"
       rel="stylesheet"
@@ -16,7 +16,7 @@
       <h1><a href="../index.html"> Fun With Triangles</a></h1>
       <nav>
         <ul>
-          <li><a href="is-triangle/is-triangle.html">Is it triangle?</a></li>
+          <li><a href="/is-triangle/is-triangle.html">Is it triangle?</a></li>
           <li><a href="/quiz/quiz.html">Quiz</a></li>
           <li><a href="/hypotenuse/hypotenuse.html">Hypotenuse</a></li>
           <li><a href="">Area of Triangle</a></li>
@@ -24,25 +24,19 @@
       </nav>
     </header>
     <div class="description">
-      <p>Welcome to the <span id="in-description">Fun with Triangles.</span></p>
+      <p>Enter the length of the sides of the right angled triangle to obtain the hypotenuse.</p><p>Length of Hypotenuse = √(a² + b²)</p>
     </div>
 
     <main>
-      <div class="banners" id="is-triangle">
-        <a href="is-triangle/is-triangle.html"
-          >Verify whether the given three angles can form the triangle or
-          not.</a
-        >
+      <label for="side1">Side 1 (a)</label>
+      <input class="input-angle" type="number" id="side1">
+      <label for="side2">Side 2 (b)</label>
+      <input class="input-angle" type="number" id="side2">
+      <button id="calculateBtn">Calculate</button>
+      <div class="result">
+
       </div>
-      <div class="banners" id="quiz">
-        <a href="/quiz/quiz.html">Let's check how much do you know about triangles?</a>
-      </div>
-      <div class="banners" id="hypotenuse">
-        <a href="/hypotenuse/hypotenuse.html">Calculate the right angled triangle's hypotenuse here.</a>
-      </div>
-      <div class="banners" id="area">
-        <a href="">Calculate the area of triangle here.</a>
-      </div>
+      
     </main>
     <!-- Footer Starts Here -->
     <footer class="footer">
@@ -75,6 +69,7 @@
             width="50"
         /></a>
       </span>
+      <script src="/hypotenuse/hypotenuse.js"></script>
     </footer>
   </body>
 </html>
