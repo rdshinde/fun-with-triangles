@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Major+Mono+Display"
       rel="stylesheet"
@@ -16,7 +16,7 @@
       <h1>Fun With Triangles</h1>
       <nav>
         <ul>
-          <li><a href="is-triangle/is-triangle.html">Is it triangle?</a></li>
+          <li><a href="/is-triangle/is-triangle.html">Is it triangle?</a></li>
           <li><a href="/quiz/quiz.html">Quiz</a></li>
           <li><a href="">Hypotenuse</a></li>
           <li><a href="">Area of Triangle</a></li>
@@ -24,24 +24,18 @@
       </nav>
     </header>
     <div class="description">
-      <p>Welcome to the <span id="in-description">Fun with Triangles.</span></p>
+      <p>Enter the values of three angles and verify whether they can form the triangle or not.</p>
     </div>
-
     <main>
-      <div class="banners" id="is-triangle">
-        <a href="is-triangle/is-triangle.html"
-          >Verify whether the given three angles can form the triangle or
-          not.</a
-        >
-      </div>
-      <div class="banners" id="quiz">
-        <a href="">Let's check how much do you know about triangles?</a>
-      </div>
-      <div class="banners" id="hypotenuse">
-        <a href="">Calculate the right angled triangle's hypotenuse here.</a>
-      </div>
-      <div class="banners" id="area">
-        <a href="">Calculate the area of triangle here.</a>
+      <label for="angle1">Angle 1</label>
+      <input class="input-angle" type="number" id="angle1">
+      <label for="angle2">Angle 2</label>
+      <input class="input-angle" type="number" id="angle2">
+      <label for="angle3">Angle 3</label>
+      <input class="input-angle" type="number" id="angle3">
+      <button id="checkBtn">Check</button>
+      <div class="result">
+
       </div>
     </main>
     <!-- Footer Starts Here -->
@@ -76,5 +70,6 @@
         /></a>
       </span>
     </footer>
+    <script src="/is-triangle/is-triangle.js"></script>
   </body>
 </html>

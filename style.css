@@ -18,15 +18,146 @@
 }
 
 body {
+  color: white;
   text-align: center;
   padding: 1rem;
   font-size: 24px;
+  background-image: linear-gradient(var(--secondary),var(--primary-dark));
+  background-repeat: no-repeat;
+  
+}
+
+header{
+  position: static;
+  color: white;
+  background-image: linear-gradient(var(--primary-dark),var(--primary));
+  border-radius: 2rem;
+  box-shadow: 8px 5px 5px var(--primary-dark);
+}
+p{
+  padding: 1rem;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 h1 {
+  
+  padding: 1rem;
   cursor: pointer;
   font-family: "Major Mono Display", sans-serif;
   font-size: 3rem;
+  
 }
 .description {
   padding: 2rem;
 }
+nav{
+  
+  
+  padding: 2rem;
+  font-family:sans-serif;
+  
+}
+ul{
+  font-size: 1.3rem;
+  text-decoration: none;
+  list-style: none;
+}
+li{
+  
+  display: inline;
+  padding: 0.5rem;
+  transition: 0.6s;
+}
+li:hover{
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  transition: 0.6s;
+  box-shadow: 8px 5px 5px #03506f;
+}
+li>a:hover{
+  cursor: pointer;
+  color: var(--primary-dark);
+  transition: 0.6s;
+}
+nav > a {
+  padding: 0 0.5rem;
+}
+main{
+  margin: auto;
+  width: 75vh;
+  
+}
+.banners{
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 8px 5px 5px var(--primary-dark);
+  margin-bottom: 1rem;
+  background-image: linear-gradient(var(--primary-dark),var(--primary));
+  transition: 0.6s;
+}
+.banners:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+footer{
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+label{
+  display: block;
+}
+.input-angle{
+    width: 50vh;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 8px 5px 5px #03506f;
+    outline: none;
+    border-radius: 1rem;
+}
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+  button{
+    display: block;
+    margin: auto;
+    font-family: "Aclonica",sans-serif;
+    cursor: pointer;
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 0.5rem;
+    color: var(--primary-dark);
+    background-color:white;
+    transition: 0.6s;
+}
+
+button:hover{
+    color: var(--background);
+    background-color: var(--primary-dark);
+    transition: 0.6s;
+}
+.result{
+padding: 1rem;
+}
+.options{
+  box-shadow: none;
+  display: inline;
+  padding: 0;
+  margin: auto;
+}
+.question-bank {
+  text-align: initial;
+  font-size: 18px;
+  padding: 1rem;
+}
+
