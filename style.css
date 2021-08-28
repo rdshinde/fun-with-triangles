@@ -161,3 +161,30 @@ padding: 1rem;
   padding: 1rem;
 }
 
+@media(max-width:420px){
+  body{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .description{
+    padding: 1.5rem;
+  }
+  nav{
+    padding: 1.5rem;
+  }
+  
+  ul{
+    font-size: 16px;
+  }
+  main{
+    width: 43vh;
+  }
+  .banners{
+    padding: 0.5rem;
+  }
+  .input-angle{
+    width: 40vh;
+  }
+}
