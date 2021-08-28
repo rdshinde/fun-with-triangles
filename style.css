@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #1687a7;
+  --secondary: #276678;
+  --primary-light: #d3e0ea;
+  --primary-dark: #03506f;
+  --background: #f4f9f9;
+}
+#in-description {
+  font-family: "Major Mono Display", sans-serif;
+  text-shadow: var(--primary-dark);
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  padding: 1rem;
+  font-size: 24px;
+}
+h1 {
+  cursor: pointer;
+  font-family: "Major Mono Display", sans-serif;
+  font-size: 3rem;
+}
+.description {
+  padding: 2rem;
+}
