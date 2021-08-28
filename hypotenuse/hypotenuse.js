@@ -17,7 +17,7 @@ function calculateHypotenuse(){
     side1Value = parseFloat(side1.value);
     side2Value = parseFloat(side2.value);
     if(side1Value >0 && side2Value > 0){
-        const hypotenuse = Math.sqrt(getSquaresSum(side1Value,side2Value));
+        const hypotenuse = (Math.sqrt(getSquaresSum(side1Value,side2Value))).toFixed(2);
         message(`The length of hypotenuse is ${hypotenuse}.`);
     }
     else{

@@ -12,7 +12,7 @@ function calculateArea(){
     baseValue = parseFloat(base.value);
     heightValue = parseFloat(height.value);
     if(baseValue > 0 && heightValue > 0){
-        const area = (baseValue*heightValue)/2;
+        const area = ((baseValue*heightValue)/2).toFixed(2);
         message(`The area of triangle is ${area}.`);
     }
     else{
