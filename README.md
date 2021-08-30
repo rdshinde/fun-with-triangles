@@ -10,7 +10,7 @@ How much do you know about triangles? In this app you would know more about tria
 
 >### Tech Stack
 
-Built with HTML, CSS and Vanilla JS.
+Built with `HTML`, `CSS` and `Vanilla JS`.
 
 >### Live Project
 
