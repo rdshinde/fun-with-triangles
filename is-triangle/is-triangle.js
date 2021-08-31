@@ -13,7 +13,7 @@ function isTriangle() {
   const a1 = parseFloat(angle1.value);
   const a2 = parseFloat(angle2.value);
   const a3 = parseFloat(angle3.value);
-  
+  // Condition for invalid values.
   if (a1 > 0 && a2 > 0 && a3 > 0) {
     if (a1 + a2 + a3 === 180.0) {
       message("Yass! These angles can form the triangle.✌️");
@@ -30,5 +30,5 @@ function isTriangle() {
 
   }
 }
-
+// Event Listener for check button
 checkBtn.addEventListener("click", isTriangle);
