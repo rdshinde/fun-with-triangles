@@ -2,7 +2,7 @@
 
 How much do you know about triangles? In this app you would know more about triangles. Take the quiz on triangles and check out your knowledge about triangles.
 
->### Components of app
+>### Components of the app
 1. Quiz
 2. Calculate the hypotenuse
 3. Calculate Area
