@@ -4,11 +4,11 @@ const height = document.querySelector('#height');
 const calculateBtn = document.querySelector('#calculateBtn');
 const resultDiv = document.querySelector('.result');
 
-function message(msg){
+const message = msg => {
     resultDiv.innerText = msg;
 }
 
-function calculateArea(){
+const calculateArea = () => {
     baseValue = parseFloat(base.value);
     heightValue = parseFloat(height.value);
     if(baseValue > 0 && heightValue > 0){
