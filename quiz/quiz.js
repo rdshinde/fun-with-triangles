@@ -15,7 +15,7 @@ const ans = [
   "55°",
 ];
 
-function checkScore() {
+const checkScore = () => {
   let points = 0;
   let index = 0;
   const formResult = new FormData(form); //Using Form Data api to get data from form.
