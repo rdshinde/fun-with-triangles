@@ -5,11 +5,11 @@ const angle3 = document.querySelector("#angle3");
 const checkBtn = document.querySelector("#checkBtn");
 const resultDiv = document.querySelector(".result");
 
-function message(msg) {
+const message = msg => {
   resultDiv.innerText = msg;
 }
 
-function isTriangle() {
+const isTriangle = () => {
   const a1 = parseFloat(angle1.value);
   const a2 = parseFloat(angle2.value);
   const a3 = parseFloat(angle3.value);
